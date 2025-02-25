@@ -1,0 +1,16 @@
+[package]
+name = "TestUSDC"
+version = "1.0.0"
+authors = []
+
+[addresses]
+movement = "1b586066d0c49e5dafae4862a3557c341401d8c3617b8ee61920addf031de34f"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
